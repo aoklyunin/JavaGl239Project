@@ -114,7 +114,9 @@ public class MyFrame extends JFrame implements ActionListener {
     }
 
     // фукнция, увеличивающая счетчик точек с индексами i, j, k из листа points на 1
-    private void increaseCount(int i, int j, int k) {
+    private void increaseCount(int i,
+                               int j,
+                               int k) {
         points.get(i).count++;
         points.get(j).count++;
         points.get(k).count++;
